@@ -16,7 +16,8 @@ img {
 .carrousel_parent-ecrans {
  display: flex; /* aligne horizontalement les enfants */
  width: 100%; /* largeur du parent */
-
+ scroll-behavior: smooth;/* animation de défilement */
+ scroll-snap-type: x mandatory;/* permet de scroller par blocs */
 }
 .carrousel_ecran {
  width: max-content; /* largeur du parent pour chaque enfant */
