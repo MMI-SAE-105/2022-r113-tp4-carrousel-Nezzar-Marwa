@@ -22,6 +22,7 @@ img {
 .carrousel_ecran {
  width: max-content; /* largeur du parent pour chaque enfant */
  width: 100%; /* permet de garder toute la largeur du parent */
+ scroll-snap-align: start; /* aligne les enfants par blocs */
 }
 .carrousel_ecran figure {
  margin: none; /* enlève les marges par défaut */
@@ -29,6 +30,7 @@ img {
 
 .carrousel {
   position: relative;
+  overflow-x: scroll; /* permet de scroller horizontalement */
 }
 
 .carrousel_btn {
